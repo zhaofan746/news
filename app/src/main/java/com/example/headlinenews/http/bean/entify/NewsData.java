@@ -12,6 +12,7 @@ public class NewsData {
      * code :
      */
 
+
     public String content;
     public String code;
 }

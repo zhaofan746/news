@@ -19,6 +19,6 @@ public class HistoryFragment extends BaseFragment {
 
     @Override
     protected int bindLayoutId() {
-        return R.layout.fragment_mine;
+        return R.layout.fragment_history;
     }
 }
