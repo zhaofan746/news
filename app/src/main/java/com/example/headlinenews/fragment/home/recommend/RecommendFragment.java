@@ -1,10 +1,10 @@
-package com.example.headlinenews.fragment.home.history;
+package com.example.headlinenews.fragment.home.recommend;
 
 import com.example.headlinenews.R;
 import com.example.headlinenews.base.BaseFragment;
 
 
-public class HistoryFragment extends BaseFragment {
+public class RecommendFragment extends BaseFragment {
 
 
     @Override

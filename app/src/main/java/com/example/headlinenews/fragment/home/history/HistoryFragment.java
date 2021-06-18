@@ -1,10 +1,10 @@
-package com.example.headlinenews.fragment.minefragment;
+package com.example.headlinenews.fragment.home.history;
 
 import com.example.headlinenews.R;
 import com.example.headlinenews.base.BaseFragment;
 
 
-public class MineFragment extends BaseFragment {
+public class HistoryFragment extends BaseFragment {
 
 
     @Override

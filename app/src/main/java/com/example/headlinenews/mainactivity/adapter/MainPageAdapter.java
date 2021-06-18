@@ -25,6 +25,18 @@ public class MainPageAdapter extends FragmentStatePagerAdapter {
     public void addTitle(String title){
         titles.add(title);
     }
+    public int getTitle(){
+        return titles.size();
+    }
+
+    public void removeTitleAndFragment(String title){
+        for (int i = 0; i < titles.size(); i++) {
+            if(titles.get(i).equals(title)){
+                titles.remove(i);
+                fragments.remove(i);
+            }
+        }
+    }
     @NonNull
     @Override
     public Fragment getItem(int position) {
