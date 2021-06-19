@@ -77,4 +77,6 @@ public abstract class BaseFragment extends LazyLoadFragment implements IBaseView
 
     }
 
+
+
 }
